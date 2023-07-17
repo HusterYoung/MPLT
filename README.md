@@ -63,13 +63,4 @@ Our project is developed upon [OSTrack](https://github.com/botaoye/OSTrack). Tha
 ## Citation
 If our work is useful for your research, please consider cite:
 
-```
-@inproceedings{,
-  title={},
-  author={},
-  booktitle={},
-  pages={},
-  year={2023}
-}
-```
 # MPLT
