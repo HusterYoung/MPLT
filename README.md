@@ -37,7 +37,7 @@ ${PROJECT_ROOT}
 Download [SOT](https://) pretrained weights and put them under `$PROJECT_ROOT$/pretrained_models`.
 
 ```
-python tracking/train.py --script mplt_track --config vitb_256_mplt_32x4_4e4_lasher_15ep_in1k --save_dir ./output/vitb_256_mplt_32x4_4e4_lasher_15ep_in1k --mode multiple --nproc_per_node 4
+python tracking/train.py --script mplt_track --config vitb_256_mplt_32x1_1e4_lasher_15ep_sot --save_dir ./output/vitb_256_mplt_32x1_1e4_lasher_15ep_sot --mode multiple --nproc_per_node 4
 ```
 
 Replace `--config` with the desired model config under `experiments/mplt_track`.
@@ -46,9 +46,9 @@ Replace `--config` with the desired model config under `experiments/mplt_track`.
 Put the checkpoint into `$PROJECT_ROOT$/output/config_name/...` or modify the checkpoint path in testing code.
 
 ```
-python tracking/test.py mplt_track vitb_256_mplt_32x4_4e4_lasher_15ep_in1k --dataset_name lasher_test --threads 6 --num_gpus 1
+python tracking/test.py mplt_track vitb_256_mplt_32x1_1e4_lasher_15ep_sot --dataset_name lasher_test --threads 6 --num_gpus 1
 
-python tracking/analysis_results.py --tracker_name mplt_track --tracker_param vitb_256_mplt_32x4_4e4_lasher_15ep_in1k --dataset_name lasher_test
+python tracking/analysis_results.py --tracker_name mplt_track --tracker_param vitb_256_mplt_32x1_1e4_lasher_15ep_sot --dataset_name lasher_test
 ```
 
 ### Results on LasHeR testing set
