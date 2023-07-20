@@ -1,6 +1,6 @@
 # MPLT for RGB-T Tracking
 
-Implementation of the paper
+Implementation of the paper “RGB-T Tracking via Multi-Modal Mutual Prompt Learning”
 
 ## Environment Installation
 ```
