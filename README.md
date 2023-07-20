@@ -34,7 +34,7 @@ ${PROJECT_ROOT}
 ```
 
 ## Training
-Download [SOT](https://) pretrained weights and put them under `$PROJECT_ROOT$/pretrained_models`.
+Download [SOT](https://pan.baidu.com/s/1uiLq7c5kGjd6oQwXe25XhA?pwd=frkr) pretrained weights and put them under `$PROJECT_ROOT$/pretrained_models`.
 
 ```
 python tracking/train.py --script mplt_track --config vitb_256_mplt_32x1_1e4_lasher_15ep_sot --save_dir ./output/vitb_256_mplt_32x1_1e4_lasher_15ep_sot --mode multiple --nproc_per_node 4
