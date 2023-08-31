@@ -55,7 +55,7 @@ python tracking/analysis_results.py --tracker_name mplt_track --tracker_param vi
 
 Model | Backbone | Pretraining | Precision | Success | FPS |       Checkpoint      | Raw Result
 
-MPLT  |  ViT-Base |      SOT     |    72.0    |    57.1  |  22.8 | [download](https://pan.baidu.com/s/1wxnEor8ksO2g3r_eBPPl6A?pwd=ce0b) | [download](https://pan.baidu.com/s/1uO08Ja9kRDNo-mqoWBG71g?pwd=8eku)
+-MPLT-|-ViT-Base-|-----SOT-----|---72.0---|--57.1--|--22.8--| [download](https://pan.baidu.com/s/1wxnEor8ksO2g3r_eBPPl6A?pwd=ce0b) | [download](https://pan.baidu.com/s/1uO08Ja9kRDNo-mqoWBG71g?pwd=8eku)
 
 ## Acknowledgments
 Our project is developed upon [OSTrack](https://github.com/botaoye/OSTrack). Thanks for their contributions which help us to quickly implement our ideas.
